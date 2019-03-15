@@ -10,7 +10,7 @@
     },
     "autoload": {
         "psr-4" : {
-            "Phlexus\\Modules\\HelloWorld\\Controllers\\" : "/"
+            "Phlexus\\Modules\\HelloWorld\\Controllers\\" : "src/"
         }
     }
 }
