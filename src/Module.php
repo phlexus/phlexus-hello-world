@@ -20,6 +20,7 @@ class Module extends PhlexusModel
      * Registers an autoloader related to the module.
      *
      * @param DiInterface $di
+     * @return void
      */
     public function registerAutoloaders(DiInterface $di = null)
     {
@@ -30,5 +31,13 @@ class Module extends PhlexusModel
         $loader = new Loader();
         $loader->registerNamespaces($namespaces);
         $loader->register();
+    }
+
+    /**
+     * @return void
+     */
+    public function registerServices()
+    {
+        // Nothing here
     }
 }
