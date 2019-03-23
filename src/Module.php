@@ -36,7 +36,7 @@ class Module extends PhlexusModel
     /**
      * @return void
      */
-    public function registerServices()
+    public function registerServices(DiInterface $di = null)
     {
         // Nothing here
     }
