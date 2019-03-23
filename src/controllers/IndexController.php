@@ -4,7 +4,7 @@ namespace Phlexus\Modules\HelloWorld\Controllers;
 
 use Phalcon\Mvc\Controller;
 
-final class HelloWorldController extends Controller
+final class IndexController extends Controller
 {
     public function indexAction() : string
     {
