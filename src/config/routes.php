@@ -3,13 +3,13 @@
 use Phalcon\Mvc\Router\Group as RouterGroup;
 
 $routes = new RouterGroup([
-    'module' => 'hello-world',
-    'controller' => 'HelloWorld',
+    'module' => 'HelloWorld',
+    'controller' => 'IndexController',
     'action' => 'index',
     'namespace' => 'Phlexus\Modules\HelloWorld\Controllers',
 ]);
 
-$routes->add('/hello-world', [
+$routes->add('/', [
     'controller' => 1,
     'action' => 2,
 ]);
