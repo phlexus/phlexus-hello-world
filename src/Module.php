@@ -4,9 +4,9 @@ namespace Phlexus\Modules\HelloWorld;
 
 use Phalcon\DiInterface;
 use Phalcon\Loader;
-use Phlexus\Module as PhlexusModel;
+use Phlexus\Module as PhlexusModule;
 
-class Module extends PhlexusModel
+class Module extends PhlexusModule
 {
     /**
      * @return string
