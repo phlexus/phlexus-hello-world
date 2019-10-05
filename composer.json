@@ -2,6 +2,7 @@
     "name": "phlexus/phlexus-hello-world",
     "type": "library",
     "description": "Phlexus Module - Hello World",
+    "license": "BSD-3-Clause",
     "require": {
         "php": ">=7.2"
     },
